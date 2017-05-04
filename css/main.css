@@ -103,6 +103,10 @@ textarea {
   margin-left: 2em;
 }
 
+.cartes
+{
+  display: flex;
+}
 
 
 
