@@ -99,7 +99,7 @@ header h1
 {
   color: #ff069b;
 }
-.lead
+.lead, h1
 {
   color: #ff069b;
 }
@@ -136,16 +136,16 @@ footer
 
 footer a
 {
-  color: grey;
+  color: #ff0863;
 }
 
-/* ------------------ PAGE TARIFS ------------------- */
+/* ------------------ PAGE COACH ------------------- */
 .coach
 {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  background-color: #ff0863bd;
+  background-color: #ff0863;
   margin-top: 4em;
 }
 
@@ -154,8 +154,8 @@ footer a
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top:2em;
-  padding-bottom: 2em;
+  margin-top:3em;
+  margin-bottom: 3em
 }
 
 .coach i
@@ -164,11 +164,109 @@ footer a
   margin-bottom: 1em;
 }
 
+/* ------- MISE EN FORME DE PRESENTATION EQUIPE ------- */
+.team {
+display: flex;
+flex-wrap: wrap;
+margin-top: 3em;
+}
+
+/* Reglage du titre des photos */
+
+h4 {
+font-weight: normal;
+}
 
 
+/* Reglage photo ligne 1 et la ligne 2*/
 
+.mobile .haut figure img {
+border-radius: 100%;
+border: 4px solid #B0E0E6;
+}
 
+.mobile .haut {
+display: flex;
+flex-direction: column;
+text-align: center;
+width: 80%;
+margin: auto;
+}
 
+.tablette {
+display: none;
+}
+
+.dispo
+{
+  width: 95%;
+  margin: auto;
+  margin-top: 4em;
+}
+.dispo p
+{
+  color: #B0E0E6;
+}
+hr
+{
+  border-color: #B0E0E6;
+}
+    @media (min-width: 768px) {
+    /* -------- PAGE TEAM --------- */
+      .mobile {
+          display: none;
+      }
+      .tablette {
+          display: flex;
+          width: 95%;
+          margin: auto;
+          margin-top: 3em;
+      }
+      .tablette .haut {
+          display: flex;
+          align-items: center;
+          width: 95%;
+          margin: auto;
+          justify-content: space-around;
+      }
+      .team h4
+      {
+        font-weight: normal;
+      }
+      .haut div
+      {
+        text-align: center;
+        width: 45%;
+      }
+
+      /* Reglage photo ligne 1 */
+      .tablette figure img {
+          border-radius: 100%;
+          border: 4px solid #B0E0E6;
+      }
+
+      .tablette .bas {
+          flex-direction: column;
+          text-align: center;
+          margin: auto;
+          width: 50%;
+      }
+      .agenda, .tarifs
+      {
+        width: 90%;
+        margin: auto;
+      }
+
+      .tarifs
+      {
+        margin-top: 4em;
+      }
+      .agenda
+      {
+        margin-top: 4em;
+        margin-bottom: 5em;
+      }
+    }
 
 
 /* ==========================================================================

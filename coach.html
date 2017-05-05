@@ -48,9 +48,55 @@
 
 <!-- ****** Debut de la section principale / cartes presentation ****** -->
 
-<h1>Nos coachs</h1>
-<h2>Mieux nous connaitre</h2>
+<section class="team mobile" id="team">
+  <h1>Découvrez nos 3 coachs fitness</h1>
 
+        <article class="haut">
+            <figure>
+                <img src="img/coach1.png" alt="Notre coach 1">
+            </figure>
+            <h4>Estelle Duflos : <br> Notre coach fitness spécialisée en cours fitness</h4>
+
+
+            <figure>
+                <img src="img/coach2.png" alt="Notre coach 2">
+            </figure>
+            <h4>Apolline Cossart : <br> Votre coach fitness spécialisée en sports de combat</h4>
+
+            <figure>
+                <img src="img/coach3.png" alt="notre coach 3">
+            </figure>
+            <h4>Julie Canevet : <br> Votre coach fitness spécialisée en entrainement à la course</h4>
+        </article>
+    </section>
+    <!-- photo version tablette -->
+    <section class="team tablette" id="team">
+      <h1>Découvrez nos 3 coachs fitness</h1>
+
+        <article class="haut">
+          <div class="reglage">
+            <figure>
+              <img src="img/coach1.png" alt="notre coach 1">
+            </figure>
+            <h4>Estelle Duflos : <br> Votre coach fitness spécialisée cours fitness</h4>
+        </div>
+
+        <div class="reglage">
+            <figure>
+              <img src="img/coach2.png" alt="notre coach 2">
+            </figure>
+            <h4>Apolline Cossart : <br> Votre coach fitness spécialisée en sport de combat</h4>
+        </article>
+
+        <article class="bas">
+            <figure>
+              <img src="img/coach3.png" alt="notre coach 3">
+            </figure>
+            <h4>Julie Canevet : <br> Votre coach fitness spécialisée pour les entrainements à la course</h4>
+        </article>
+    </section>
+
+<!-- - - - - - - ENCADRE ROSE - - - - - - -->
 <section class="coach">
 <article>
   <i class="fa fa-trophy" aria-hidden="true"></i>
@@ -68,9 +114,87 @@
 </article>
 </section>
 
+<!-- - - - - - - - - TABLEAU DISPONIBILITE - - - - - - - - -->
 <section class="dispo">
 <h1>Nos disponibilités</h1>
+    <p class="lead">
+        Retrouvez les disponibilités des coachs et rejoignez nous au plus vite !
+    </p>
+
+    <hr>
 </section>
+
+    <section class="agenda">
+        <article class="table-responsive">
+            <table class="table table-condensed table-bordered">
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Coach</th>
+                        <th>Activité</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                    <tr>
+                        <td class="agenda-date" class="active" rowspan="1">
+                            <div class="dayofmonth">Samedi</div>
+                            <div class="dayofweek">de 13h à 15h</div>
+                            <div class="shortdate text-muted">janvier - juin</div>
+                        </td>
+                        <td class="agenda-time">
+                            Apolline
+                        </td>
+                        <td class="agenda-events">
+                            <div class="agenda-event">
+                                <i class="glyphicon glyphicon-repeat text-muted" title="Repeating event"></i> 
+                                Sport de combat
+                            </div>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="agenda-date" class="active" rowspan="1">
+                            <div class="dayofmonth">Mercredi</div>
+                            <div class="dayofweek">de 14h à 16h</div>
+                            <div class="shortdate text-muted">février - juin</div>
+                        </td>
+                        <td class="agenda-time">
+                            Estelle
+                        </td>
+                        <td class="agenda-events">
+                            <div class="agenda-event">
+                                <i class="glyphicon glyphicon-repeat text-muted" title="Repeating event"></i> 
+                                Cours de fitness
+                            </div>
+                        </td>
+                    </tr>
+
+                    <!-- Multiple events in a single day (note the rowspan) -->
+                    <tr>
+                        <td class="agenda-date" class="active" rowspan="3">
+                            <div class="dayofmonth">Mercredi</div>
+                            <div class="dayofweek">de 14h à 16h</div>
+                            <div class="shortdate text-muted">février - mai</div>
+                        </td>
+                        <td class="agenda-time">
+                            Julie
+                        </td>
+                        <td class="agenda-events">
+                            <div class="agenda-event">
+                                <i class="glyphicon glyphicon-repeat text-muted" title="Repeating event"></i> 
+                                Entrainement à la course
+                            </div>
+                        </td>
+
+                    </tr>
+
+                </tbody>
+            </table>
+        </article>
+    </section>
+</section>
+
 
 <footer>
 <ul class="nav justify-content-end navbar-fixed-bottom">
