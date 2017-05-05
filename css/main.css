@@ -94,11 +94,29 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+header
+{
+  height: 15em;
+  margin-bottom: 0;
+}
 
 header h1
 {
   color: #ff069b;
+  margin-top: auto;
 }
+
+
+.menu
+{
+background-color: #ECEEFF;
+}
+
+.menu a
+{
+  margin-left: 2em;
+}
+
 .lead, h1
 {
   color: #ff069b;
@@ -106,7 +124,8 @@ header h1
 .card
 {
   margin-top: 3em;
-  border-color: orange;
+  border: 2px solid #B0E0E6;
+;
 }
 
 .cartes
@@ -116,16 +135,7 @@ header h1
   justify-content: space-around;
 }
 
-.carousel
-{
-  margin: auto;
-  margin-top: 2em;
-}
 
-.carousel figure
-{
-  margin: 0;
-}
 
 footer
 {
@@ -221,6 +231,11 @@ hr
   margin: auto;
 }
 
+.contact h1
+{
+  margin-top: 2em;
+}
+
 .tableau
 {
   width: 80%;
@@ -240,18 +255,37 @@ hr
 
 textarea
 {
-  width: 65%;
+  width: 70%;
+}
+
+.map
+{
+  display: none;
 }
 
 
-
-
-
+.carousel
+{
+  display: none;
+}
     @media (min-width: 768px) {
     /* -------- PAGE COACH --------- */
       .mobile {
           display: none;
       }
+
+      .carousel
+      {
+        display: block;
+        margin: auto;
+        margin-top: 2em;
+      }
+
+      .carousel figure
+      {
+        margin: 0;
+      }
+
       .tablette {
           display: flex;
           width: 95%;
@@ -303,9 +337,10 @@ textarea
         margin-bottom: 5em;
       }
 
+/* Ajout de la google map */
       .map
       {
-        width: 60%;
+        width: 70%;
         margin: auto;
         display: flex;
         justify-content: center;
@@ -313,8 +348,9 @@ textarea
 
       iframe
       {
+        display: flex;
         margin-top: 3em;
-        width:100%;
+        width: 100%;
 
       }
     }
