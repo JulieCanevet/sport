@@ -211,8 +211,44 @@ hr
 {
   border-color: #B0E0E6;
 }
+
+/* - - - - - - - FIN DE LA PAGE COACH - - - - - - - -  */
+
+/* - - - - - - - - - PAGE CONTACT - - - - - - - - - */
+.contact
+{
+  width: 90%;
+  margin: auto;
+}
+
+.tableau
+{
+  width: 80%;
+  margin: auto;
+  display: flex;
+  margin-top: 4em;
+  text-align: center;
+}
+
+.tableau input, .tableau textarea
+{
+  margin-top: 1em;
+  border: 2px solid #B0E0E6;
+  color: grey;
+  box-shadow: none;
+}
+
+textarea
+{
+  width: 65%;
+}
+
+
+
+
+
     @media (min-width: 768px) {
-    /* -------- PAGE TEAM --------- */
+    /* -------- PAGE COACH --------- */
       .mobile {
           display: none;
       }
@@ -265,6 +301,21 @@ hr
       {
         margin-top: 4em;
         margin-bottom: 5em;
+      }
+
+      .map
+      {
+        width: 60%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+      }
+
+      iframe
+      {
+        margin-top: 3em;
+        width:100%;
+
       }
     }
 
