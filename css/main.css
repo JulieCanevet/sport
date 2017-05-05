@@ -1,10 +1,12 @@
 /*! HTML5 Boilerplate v5.3.0 | MIT License | https://html5boilerplate.com/ */
 
+
 /*
  * What follows is the result of much research on cross-browser styling.
  * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
  * Kroc Camen, and the H5BP dev community and team.
  */
+
 
 /* ==========================================================================
    Base styles: opinionated defaults
@@ -15,6 +17,7 @@ html {
     font-size: 1em;
     line-height: 1.4;
 }
+
 
 /*
  * Remove text-shadow in selection highlight:
@@ -34,6 +37,7 @@ html {
     text-shadow: none;
 }
 
+
 /*
  * A better looking default horizontal rule
  */
@@ -47,20 +51,17 @@ hr {
     padding: 0;
 }
 
+
 /*
  * Remove the gap between audio, canvas, iframes,
  * images, videos and the bottom of their containers:
  * https://github.com/h5bp/html5-boilerplate/issues/440
  */
 
-audio,
-canvas,
-iframe,
-img,
-svg,
-video {
+audio, canvas, iframe, img, svg, video {
     vertical-align: middle;
 }
+
 
 /*
  * Remove default fieldset styles.
@@ -72,6 +73,7 @@ fieldset {
     padding: 0;
 }
 
+
 /*
  * Allow only vertical resizing of textareas.
  */
@@ -79,6 +81,7 @@ fieldset {
 textarea {
     resize: vertical;
 }
+
 
 /* ==========================================================================
    Browser Upgrade Prompt
@@ -91,306 +94,307 @@ textarea {
     padding: 0.2em 0;
 }
 
+
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+
+
 /* Header page d'accueil */
-header
-{
-  height: 15em;
-  bottom: 0;
+
+header {
+    height: 15em;
+    bottom: 0;
 }
 
-header h1
-{
-  color: #ff069b;
-  margin-top: auto;
-
-
-      font-family: 'Raleway', sans-serif;
+header h1 {
+    color: #ff069b;
+    margin-top: auto;
+    font-family: 'Raleway', sans-serif;
 }
+
 
 /* Nav bar page d'accueil */
-.menu
-{
-background-color: #ECEEFF;
+
+.menu {
+    background-color: #ECEEFF;
 }
 
-.menu a
-{
-  margin-left: 2em;
+.menu a {
+    margin-left: 2em;
 }
+
 
 /* Couleur rose des titres du site */
-.lead, h1
-{
-  color: #ff069b;
-  font-family: 'Raleway', sans-serif;
 
+.lead, h1 {
+    color: #ff069b;
+    font-family: 'Raleway', sans-serif;
 }
+
 
 /* Cartes page d'accueil */
-.card
-{
-  margin-top: 3em;
-  border: 2px solid #B0E0E6;
+
+.card {
+    margin-top: 3em;
+    border: 2px solid #B0E0E6;
 }
 
-.cartes
-{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+.cartes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
+
 
 /* Footer */
-footer
-{
-  background-color: lightgrey;
-  margin-top: 7em;
-  height: 3em;
+
+footer {
+    background-color: lightgrey;
+    margin-top: 7em;
+    height: 3em;
 }
 
-footer a
-{
-  color: #ff0863;
+footer a {
+    color: #ff0863;
 }
+
 
 /* ------------------ PAGE COACH ------------------- */
+
 
 /* ------- MISE EN FORME DE PRESENTATION EQUIPE ------- */
 
 .team {
-display: flex;
-flex-wrap: wrap;
-margin-top: 3em;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 3em;
 }
+
 
 /* Reglage du titre des photos */
 
 h4 {
-font-weight: normal;
+    font-weight: normal;
 }
 
 
 /* Reglage photo ligne 1 et la ligne 2*/
 
 .mobile .haut figure img {
-border-radius: 100%;
-border: 4px solid #B0E0E6;
+    border-radius: 100%;
+    border: 4px solid #B0E0E6;
 }
 
 .mobile .haut {
-display: flex;
-flex-direction: column;
-text-align: center;
-width: 80%;
-margin: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 80%;
+    margin: auto;
 }
 
 .tablette {
-display: none;
+    display: none;
 }
+
+
 /* Barre rose 'Experience - utilisatrices - coachs' */
-.coach
-{
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  background-color: #ff0863;
-  margin-top: 4em;
+
+.coach {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #ff0863;
+    margin-top: 4em;
 }
+
 
 /* Articles de la barre rose */
+
 .coach article {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top:3em;
-  margin-bottom: 3em
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3em;
+    margin-bottom: 3em
 }
+
 
 /* icon */
+
 .coach i {
-  font-size: 3em;
-  margin-bottom: 1em;
+    font-size: 3em;
+    margin-bottom: 1em;
 }
+
+
 /* FIN DE LA BARRE ROSE */
 
+
 /* Tableau des disponibilités */
-.dispo
-{
-  width: 95%;
-  margin: auto;
-  margin-top: 4em;
+
+.dispo {
+    width: 95%;
+    margin: auto;
+    margin-top: 4em;
 }
-.dispo p
-{
-  color: #B0E0E6;
+
+.dispo p {
+    color: #B0E0E6;
 }
-hr
-{
-  border-color: #B0E0E6;
+
+hr {
+    border-color: #B0E0E6;
 }
+
 
 /* - - - - - - - FIN DE LA PAGE COACH - - - - - - - -  */
+
+
 /* PAGE TARIFS */
+
+
 /* grille des tarifs */
-.agenda
-{
-  margin-top: 4em;
+
+.agenda {
+    margin-top: 4em;
 }
 
-.tarifs
-{
-  margin-top: 3em;
+.tarifs {
+    margin-top: 3em;
 }
+
+
 /* - - - - - - - - - PAGE CONTACT - - - - - - - - - */
+
+
 /* section page contact */
-.contact
-{
-  width: 90%;
-  margin: auto;
+
+.contact {
+    width: 90%;
+    margin: auto;
 }
+
 
 /* Titres des pages contact */
-.contact h1
-{
-  margin-top: 2em;
+
+.contact h1 {
+    margin-top: 2em;
 }
+
 
 /* formulaire */
-.tableau
-{
-  width: 80%;
-  margin: auto;
-  display: flex;
-  margin-top: 4em;
-  text-align: center;
+
+.tableau {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    margin-top: 4em;
+    text-align: center;
 }
 
-.tableau input, .tableau textarea
-{
-  margin-top: 1em;
-  border: 2px solid #B0E0E6;
-  color: grey;
-  box-shadow: none;
+.tableau input, .tableau textarea {
+    margin-top: 1em;
+    border: 2px solid #B0E0E6;
+    color: grey;
+    box-shadow: none;
 }
 
-textarea
-{
-  width: 70%;
+textarea {
+    width: 70%;
 }
+
 
 /* Google map */
-.map
-{
-  display: none;
+
+.map {
+    display: none;
 }
 
-
-.carousel
-{
-  display: none;
+.carousel {
+    display: none;
 }
-    @media (min-width: 768px) {
+
+@media (min-width: 768px) {
     /* -------- PAGE COACH --------- */
-      .mobile {
-          display: none;
-      }
-
-/* Images du carousel */
-      .carousel
-      {
+    .mobile {
+        display: none;
+    }
+    /* Images du carousel */
+    .carousel {
         display: block;
         margin: auto;
         margin-top: 2em;
-      }
-
-      .carousel figure
-      {
+    }
+    .carousel figure {
         margin: 0;
-      }
-
-      /* Mise en forme de la presentation des coachs */
-      .tablette {
-          display: flex;
-          width: 95%;
-          margin: auto;
-          margin-top: 3em;
-      }
-      .tablette .haut {
-          display: flex;
-          align-items: center;
-          width: 95%;
-          margin: auto;
-          justify-content: space-around;
-      }
-      .team h4
-      {
+    }
+    /* Mise en forme de la presentation des coachs */
+    .tablette {
+        display: flex;
+        width: 95%;
+        margin: auto;
+        margin-top: 3em;
+    }
+    .tablette .haut {
+        display: flex;
+        align-items: center;
+        width: 95%;
+        margin: auto;
+        justify-content: space-around;
+    }
+    .team h4 {
         font-weight: normal;
-      }
-      .haut div
-      {
+    }
+    .haut div {
         text-align: center;
         width: 45%;
-      }
-
-      /* Reglage photo portraits des coachs */
-      .tablette figure img {
-          border-radius: 100%;
-          border: 4px solid #B0E0E6;
-      }
-
-      .tablette .bas {
-          flex-direction: column;
-          text-align: center;
-          margin: auto;
-          width: 50%;
-      }
-
-      /* tableau des disponibilités et des tarifs */
-      .agenda, .tarifs
-      {
+    }
+    /* Reglage photo portraits des coachs */
+    .tablette figure img {
+        border-radius: 100%;
+        border: 4px solid #B0E0E6;
+    }
+    .tablette .bas {
+        flex-direction: column;
+        text-align: center;
+        margin: auto;
+        width: 50%;
+    }
+    /* tableau des disponibilités et des tarifs */
+    .agenda, .tarifs {
         width: 90%;
         margin: auto;
-      }
-
-/* tarifs*/
-      .tarifs
-      {
+    }
+    /* tarifs*/
+    .tarifs {
         margin-top: 4em;
-      }
-
-/* Disponibilités */
-      .agenda
-      {
+    }
+    /* Disponibilités */
+    .agenda {
         margin-top: 4em;
         margin-bottom: 5em;
-      }
-
-/* Ajout de la google map */
-      .map
-      {
+    }
+    /* Ajout de la google map */
+    .map {
         width: 70%;
         margin: auto;
         display: flex;
         justify-content: center;
-      }
-
-      iframe
-      {
+    }
+    iframe {
         display: flex;
         margin-top: 3em;
         width: 100%;
-
-      }
     }
+}
 
 
 /* ==========================================================================
    Helper classes
    ========================================================================== */
+
 
 /*
  * Hide visually and from screen readers
@@ -399,6 +403,7 @@ textarea
 .hidden {
     display: none !important;
 }
+
 
 /*
  * Hide only visually, but have it available for screen readers:
@@ -416,14 +421,14 @@ textarea
     width: 1px;
 }
 
+
 /*
  * Extends the .visuallyhidden class to allow the element
  * to be focusable when navigated to via the keyboard:
  * https://www.drupal.org/node/897638
  */
 
-.visuallyhidden.focusable:active,
-.visuallyhidden.focusable:focus {
+.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus {
     clip: auto;
     height: auto;
     margin: 0;
@@ -432,6 +437,7 @@ textarea
     width: auto;
 }
 
+
 /*
  * Hide visually and from screen readers, but maintain layout
  */
@@ -439,6 +445,7 @@ textarea
 .invisible {
     visibility: hidden;
 }
+
 
 /*
  * Clearfix: contain floats
@@ -452,15 +459,17 @@ textarea
  *    `:before` to contain the top-margins of child elements.
  */
 
-.clearfix:before,
-.clearfix:after {
-    content: " "; /* 1 */
-    display: table; /* 2 */
+.clearfix:before, .clearfix:after {
+    content: " ";
+    /* 1 */
+    display: table;
+    /* 2 */
 }
 
 .clearfix:after {
     clear: both;
 }
+
 
 /* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.
@@ -472,12 +481,10 @@ textarea
     /* Style adjustments for viewports that meet the condition */
 }
 
-@media print,
-       (-webkit-min-device-pixel-ratio: 1.25),
-       (min-resolution: 1.25dppx),
-       (min-resolution: 120dpi) {
+@media print, (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 1.25dppx), (min-resolution: 120dpi) {
     /* Style adjustments for high resolution devices */
 }
+
 
 /* ==========================================================================
    Print styles.
@@ -486,74 +493,52 @@ textarea
    ========================================================================== */
 
 @media print {
-    *,
-    *:before,
-    *:after,
-    *:first-letter,
-    *:first-line {
+    *, *:before, *:after, *:first-letter, *:first-line {
         background: transparent !important;
-        color: #000 !important; /* Black prints faster:
+        color: #000 !important;
+        /* Black prints faster:
                                    http://www.sanbeiji.com/archives/953 */
         box-shadow: none !important;
         text-shadow: none !important;
     }
-
-    a,
-    a:visited {
+    a, a:visited {
         text-decoration: underline;
     }
-
     a[href]:after {
         content: " (" attr(href) ")";
     }
-
     abbr[title]:after {
         content: " (" attr(title) ")";
     }
-
     /*
      * Don't show links that are fragment identifiers,
      * or use the `javascript:` pseudo protocol
      */
-
-    a[href^="#"]:after,
-    a[href^="javascript:"]:after {
+    a[href^="#"]:after, a[href^="javascript:"]:after {
         content: "";
     }
-
-    pre,
-    blockquote {
+    pre, blockquote {
         border: 1px solid #999;
         page-break-inside: avoid;
     }
-
     /*
      * Printing Tables:
      * http://css-discuss.incutio.com/wiki/Printing_Tables
      */
-
     thead {
         display: table-header-group;
     }
-
-    tr,
-    img {
+    tr, img {
         page-break-inside: avoid;
     }
-
     img {
         max-width: 100% !important;
     }
-
-    p,
-    h2,
-    h3 {
+    p, h2, h3 {
         orphans: 3;
         widows: 3;
     }
-
-    h2,
-    h3 {
+    h2, h3 {
         page-break-after: avoid;
     }
 }
